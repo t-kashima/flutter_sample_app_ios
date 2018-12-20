@@ -1,0 +1,3 @@
+[submodule "flutter_sample_app"]
+	path = flutter_sample_app
+	url = git@github.com:t-kashima/flutter_sample_app.git

@@ -9,5 +9,5 @@ target 'SampleApp' do
 
 end
 
-flutter_application_path = 'path/to/flutter_app/'
-  eval(File.read(File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')), binding)
+flutter_application_path = 'flutter_sample_app/'
+eval(File.read(File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')), binding)
